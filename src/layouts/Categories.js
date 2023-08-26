@@ -33,38 +33,44 @@ function Categories() {
           <Col size={12} sm={6} md={4}>
             <div className="proj-imgbx">
               <div className="image-container">
-                <img
-                  src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-                  style={{ height: 325, width: 175, margin: "10px" }}
-                  alt="Image 4"
-                />
+                <a href="">
+                  <img
+                    src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                    style={{ height: 325, width: 175, margin: "10px" }}
+                    alt="Image 4"
+                  />
+                </a>
                 <div className="image-text">Electronics</div>
               </div>
               {/* </div> */}
-
-              <img
-                src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                style={{ height: 325, width: 175, margin: "10px" }}
-                alt="Image 4"
-              />
-
-              <img
-                src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnVybml0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
-                style={{ height: 325, width: 175, margin: "10px" }}
-                alt="Image 4"
-              />
-
-              <img
-                src="https://plus.unsplash.com/premium_photo-1673125287084-e90996bad505?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                style={{ height: 325, width: 175, margin: "10px" }}
-                alt="Image 1"
-              />
-
-              <img
-                src="https://images.unsplash.com/photo-1470224114660-3f6686c562eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFya2luZyUyMHNwYWNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
-                style={{ height: 325, width: 175, margin: "10px" }}
-                alt="Image 4"
-              />
+              <a href="">
+                <img
+                  src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  style={{ height: 325, width: 175, margin: "10px" }}
+                  alt="Image 4"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnVybml0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                  style={{ height: 325, width: 175, margin: "10px" }}
+                  alt="Image 4"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1673125287084-e90996bad505?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  style={{ height: 325, width: 175, margin: "10px" }}
+                  alt="Image 1"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="https://images.unsplash.com/photo-1470224114660-3f6686c562eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFya2luZyUyMHNwYWNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                  style={{ height: 325, width: 175, margin: "10px" }}
+                  alt="Image 4"
+                />
+              </a>
             </div>
           </Col>
         </Row>
