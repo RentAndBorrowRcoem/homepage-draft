@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+
+/* HowItWorks.css */
+
+.How-it-works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .text-container {
+    color: black;
+    font-family: Route159, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    padding: 2rem;
+    position: absolute;
+    left: 2rem;
+    top: 15%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-container p,
+  .text-container h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .register-button {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 1rem;
+  }
+  
+  .register-button span {
+    margin-right: 0.5rem;
+  }
+  

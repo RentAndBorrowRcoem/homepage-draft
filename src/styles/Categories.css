@@ -1,0 +1,96 @@
+.proj-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.check-all {
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.full_page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 150px;
+  font-family: "Route159,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji";
+}
+
+.flex_center {
+  display: "flex";
+  align-items: "center";
+}
+
+.link_style {
+  color: black;
+  --google-font-color-materialiconstwotone: none;
+  font-family: "Route159,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji";
+}
+
+.image_style {
+  display: flex;
+  /* justifyContent: center; */
+  margin-top: 20px;
+  justify-content: center;
+  /* color: white; */
+  /* transform: translate(-50%, -50%); */
+  width: 100%;
+}
+
+.individual_image {
+  height: 100px;
+  width: 200px;
+  margin: 10px;
+}
+
+.image-container {
+  position: relative;
+  height: 325;
+   width: 175;
+    margin: "10px";
+}
+
+.image-text {
+  position: absolute;
+  bottom: 10%; /* Adjust as needed to position the text */
+  left: 10%; /* Adjust as needed to position the text */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+  color: white; /* Optional: Set the text color */
+  padding: 5px; /* Optional: Add padding to the text */
+  font-size: 22px; /* Optional: Set the font size */
+}
+
+/* Heading Styles */
+/* Define a CSS class for your headings */
+.heading-1 {
+  font-size: 40px;
+  font-style: italic;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif; /* Change the font family here */
+}
+
+.heading-2 {
+  font-size: 27px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif; /* Change the font family here */
+}
+
+/* Optionally, you can set styles for specific elements using their HTML tags */
+h1 {
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif; /* Change the font family here */
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif; /* Change the font family here */
+}

@@ -1,0 +1,130 @@
+/* Navbar.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.logo img {
+  height: 40px; /* Adjust as needed */
+}
+
+.nav-links {
+    position: relative;
+    MARGIN-LEFT: 500px;
+    list-style: none;
+    display: flex;
+    gap: 2.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: lightgray;
+}
+
+.submit-link {
+  background-color: #353433;
+  color: white;
+  /* padding: 0rem 1rem; */
+  padding-left: 6px;
+  padding-right: 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.submit-link:hover {
+  background-color: #3171fc;
+}
+
+.user-icons a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.active {
+  font-weight: bold;
+  color: #ff9800;
+}
+
+/* .user-icons a {
+  margin-left: 1rem;
+  color: green; /
+  text-decoration: none;
+  font-size: 1.5rem;
+} */
+
+
+
+/* Responsive maybe */
+
+/* Media query for screens with max width 768px (typical mobile width) */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+  
+  .nav-links {
+    flex-direction: row; /* Display Nav links horizontally on mobile */
+    gap: 1.5rem;
+    overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+  }
+  
+  .nav-links li {
+    flex: 0 0 auto; /* Prevent Nav links from stretching on mobile */
+  }
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: lightgray;
+}
+
+.submit-link {
+  background-color: #353433;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.submit-link:hover {
+  background-color: #3171fc;
+}
+
+.user-icons a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.active {
+  font-weight: bold;
+  color: #ff9800;
+}

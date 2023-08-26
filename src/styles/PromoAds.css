@@ -1,0 +1,39 @@
+.promotions-container {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 20px;
+    font-family: 'Route159', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  
+   .promotions-left {
+    flex: 1;
+  }
+
+  .small-text {
+    font-size: 12px;
+    margin: 0;
+    padding-left: 3rem;
+  }
+
+  .promo-ads {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 3rem;
+  }
+
+  .promotions-right {
+    display: flex;
+    align-items: center;
+    padding-right: 3rem;
+    
+  }
+
+  .check-all {
+    font-size: 14px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+  }
